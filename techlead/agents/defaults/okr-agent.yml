@@ -1,9 +1,0 @@
-name: okr-agent
-description: Analisa progresso de OKRs, identifica riscos e sugere ações corretivas
-mcps:
-  - atlassian
-trigger_conditions:
-  - progresso de OKR
-  - key result em risco
-  - alinhamento estratégico
-  - revisão de objetivos

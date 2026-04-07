@@ -1,9 +1,0 @@
-name: people-agent
-description: Monitora situação do time, identifica sobrecarga, blockers por pessoa e necessidades de 1:1
-mcps:
-  - atlassian
-trigger_conditions:
-  - situação de uma pessoa específica
-  - sobrecarga do time
-  - quem está bloqueado
-  - preparar 1:1

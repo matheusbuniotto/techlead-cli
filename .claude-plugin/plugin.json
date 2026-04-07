@@ -1,0 +1,9 @@
+{
+  "name": "techlead",
+  "version": "0.1.0",
+  "description": "Cockpit do tech lead — briefing matinal, captura de contexto, e consultas usando MCPs",
+  "author": {
+    "name": "Matheus"
+  },
+  "keywords": ["productivity", "tech-lead", "briefing", "context"]
+}
