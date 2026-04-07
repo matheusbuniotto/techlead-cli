@@ -1,0 +1,21 @@
+[project]
+name = "techlead-cli"
+version = "0.1.0"
+description = "Cockpit do tech lead — menos caos, mais foco."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.3",
+    "typer>=0.24.1",
+]
+
+[project.scripts]
+tlc = "techlead.cli.main:main"
+
+[tool.setuptools.packages.find]
+include = ["techlead*"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]

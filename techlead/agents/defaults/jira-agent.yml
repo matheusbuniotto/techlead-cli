@@ -1,0 +1,9 @@
+name: jira-agent
+description: Busca e analisa issues, sprints, blockers e status de tasks no Jira
+mcps:
+  - atlassian
+trigger_conditions:
+  - tasks bloqueadas
+  - status de sprint
+  - issues em aberto
+  - ticket específico
